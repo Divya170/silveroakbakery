@@ -12,14 +12,16 @@ import { SpecialOrdersModule } from './special-orders/special-orders.module';
 import { SeedModule } from './seed/seed.module';
 import { UsersModule } from './users/users.module';
 
-const dataDir = join(__dirname, '..', '..', 'database');
+// DATABASE_DIR lets a host (e.g. a mounted volume on Railway) point this at
+// persistent storage. Locally it defaults to the shared ../../database folder.
+const dataDir = process.env.DATABASE_DIR ?? join(__dirname, '..', '..', 'database');
 mkdirSync(dataDir, { recursive: true });
 
 @Module({
   imports: [
     TypeOrmModule.forRoot({
       type: 'better-sqlite3',
-      database: join(dataDir, 'app.sqlite'),
+      database: join(dataDir, process.env.DATABASE_FILE ?? 'app.sqlite'),
       autoLoadEntities: true,
       synchronize: true,
     }),
