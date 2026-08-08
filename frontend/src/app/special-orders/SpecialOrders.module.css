@@ -1,0 +1,52 @@
+.hero {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 64px 32px 20px;
+  text-align: center;
+}
+
+.heroHeading {
+  font-size: 44px;
+  margin: 0 0 16px;
+}
+
+.heroText {
+  font-size: 16px;
+  line-height: 1.6;
+  color: color-mix(in srgb, var(--color-text) 75%, transparent);
+  margin: 0;
+}
+
+.categorySection {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 44px 32px 96px;
+}
+
+.categoryGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 22px;
+}
+
+.categoryCard {
+  background: var(--color-surface);
+  border-radius: 24px;
+  padding: 26px;
+  text-align: center;
+}
+
+.categoryCard h3 {
+  font-size: 16.5px;
+  margin: 0;
+}
+
+.formSection {
+  background: var(--color-surface);
+  padding: 88px 32px;
+}
+
+.formInner {
+  max-width: 760px;
+  margin: 0 auto;
+}

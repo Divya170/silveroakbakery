@@ -1,0 +1,29 @@
+.masonry {
+  columns: 3 240px;
+  column-gap: 20px;
+}
+
+.tile {
+  break-inside: avoid;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  border: none;
+  padding: 0;
+  display: block;
+  width: 100%;
+  background: none;
+}
+
+.tileLabel {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  background: color-mix(in srgb, var(--color-neutral-900) 65%, transparent);
+  color: var(--color-neutral-100);
+  font-size: 11px;
+  padding: 4px 10px;
+  border-radius: 999px;
+}

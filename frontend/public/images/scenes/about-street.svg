@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+<defs><linearGradient id="id6" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f9f4ed"/><stop offset="1" stop-color="#f5ead8"/></linearGradient>
+  <filter id="softid6" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#402310" flood-opacity="0.16"/></filter>
+  </defs><rect width="1200" height="800" fill="url(#id6)"/>
+<rect x="0" y="656" width="1200" height="144" fill="#eee7db"/><rect x="0" y="652" width="1200" height="4" fill="#474238" opacity="0.25"/><rect x="72" y="336" width="192" height="320" fill="#d67f48"/><rect x="68" y="326" width="200" height="14" fill="#8c491a"/><rect x="96" y="425.6" width="48" height="96" rx="2" fill="#fff2eb" opacity="0.85"/><rect x="192" y="425.6" width="48" height="96" rx="2" fill="#fff2eb" opacity="0.85"/><rect x="288" y="240" width="240" height="416" fill="#b2622d"/><rect x="284" y="230" width="248" height="14" fill="#643312"/><rect x="308" y="356.48" width="40" height="124.8" rx="2" fill="#fff2eb" opacity="0.85"/><rect x="388" y="356.48" width="40" height="124.8" rx="2" fill="#fff2eb" opacity="0.85"/><rect x="468" y="356.48" width="40" height="124.8" rx="2" fill="#fff2eb" opacity="0.85"/><g transform="translate(600 656) scale(1.3)">
+    <rect x="-8" y="0" width="16" height="60" fill="#643312"/>
+    <circle cx="-30" cy="-10" r="34" fill="#728157"/>
+    <circle cx="30" cy="-6" r="38" fill="#728157"/>
+    <circle cx="0" cy="-42" r="44" fill="#aebf92"/>
+    <circle cx="0" cy="-8" r="46" fill="#728157" opacity="0.85"/>
+  </g><rect x="744" y="288" width="216" height="368" fill="#f6a06b"/><rect x="740" y="278" width="224" height="14" fill="#8c491a"/><rect x="771" y="391.04" width="54" height="110.39999999999999" rx="2" fill="#fff2eb" opacity="0.85"/><rect x="879" y="391.04" width="54" height="110.39999999999999" rx="2" fill="#fff2eb" opacity="0.85"/><rect x="983.9999999999999" y="368" width="168.00000000000003" height="288" fill="#ffc6a5"/><rect x="979.9999999999999" y="358" width="176.00000000000003" height="14" fill="#b2622d"/><rect x="1005" y="448.64" width="42.00000000000001" height="86.39999999999999" rx="2" fill="#fff2eb" opacity="0.85"/><rect x="1089" y="448.64" width="42.00000000000001" height="86.39999999999999" rx="2" fill="#fff2eb" opacity="0.85"/><rect x="165.00000000000003" y="400" width="6" height="256" fill="#474238"/><circle cx="168.00000000000003" cy="394" r="10" fill="#ffc6a5"/>
+</svg>

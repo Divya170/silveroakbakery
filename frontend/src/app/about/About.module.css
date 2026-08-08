@@ -1,0 +1,103 @@
+.hero {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 64px 32px 20px;
+  text-align: center;
+}
+
+.heroHeading {
+  font-size: 44px;
+  margin: 0 0 16px;
+}
+
+.heroText {
+  font-size: 16px;
+  line-height: 1.6;
+  color: color-mix(in srgb, var(--color-text) 75%, transparent);
+  margin: 0;
+}
+
+.split {
+  max-width: 1280px;
+  margin: 64px auto 0;
+  padding: 0 32px 96px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 56px;
+  align-items: center;
+}
+
+.splitReverse {
+  composes: split;
+  margin: 0;
+  padding: 0 32px 96px;
+  flex-wrap: wrap-reverse;
+}
+
+.splitImage {
+  flex: 1 1 420px;
+  min-width: 300px;
+}
+
+.splitCopy {
+  flex: 1 1 380px;
+  min-width: 0;
+}
+
+.label {
+  font-size: 12.5px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-accent-700);
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.heading {
+  font-size: 32px;
+  margin: 0 0 18px;
+}
+
+.text {
+  font-size: 15.5px;
+  line-height: 1.7;
+  color: color-mix(in srgb, var(--color-text) 78%, transparent);
+  margin: 0 0 14px;
+}
+
+.surfaceSection {
+  background: var(--color-surface);
+  padding: 88px 32px;
+}
+
+.teamHead {
+  max-width: 60ch;
+  margin: 0 0 44px;
+}
+
+.teamGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 28px;
+}
+
+.teamName {
+  font-size: 17px;
+  margin: 0 0 4px;
+}
+
+.teamRole {
+  font-size: 13.5px;
+  color: color-mix(in srgb, var(--color-text) 65%, transparent);
+  margin: 0;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--color-accent-700);
+  font-weight: 600;
+  font-size: 15px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}

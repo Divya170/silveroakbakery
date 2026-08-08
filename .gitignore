@@ -1,0 +1,5 @@
+# root-level installs (each project also has its own)
+/node_modules
+
+# OS
+.DS_Store

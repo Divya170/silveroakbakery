@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+<defs><linearGradient id="id27" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f9f4ed"/><stop offset="1" stop-color="#f5ead8"/></linearGradient>
+  <filter id="softid27" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#402310" flood-opacity="0.16"/></filter>
+  </defs><rect width="800" height="600" fill="url(#id27)"/>
+<circle cx="400" cy="312" r="252" fill="#fff2eb" opacity="0.65"/><g transform="rotate(-18 400 300)">
+    <rect x="160" y="263" width="480" height="74" rx="37" fill="#d67f48"/>
+    <rect x="197" y="279.28" width="406" height="29.6" rx="14.8" fill="#ffc6a5" opacity="0.5"/>
+    <path d="M 233.8 268.92 L 278.2 331.08" stroke="#8c491a" stroke-width="3" fill="none" opacity="0.5" stroke-linecap="round"/><path d="M 329.8 268.92 L 374.2 331.08" stroke="#8c491a" stroke-width="3" fill="none" opacity="0.5" stroke-linecap="round"/><path d="M 425.8 268.92 L 470.2 331.08" stroke="#8c491a" stroke-width="3" fill="none" opacity="0.5" stroke-linecap="round"/><path d="M 521.8 268.92 L 566.2 331.08" stroke="#8c491a" stroke-width="3" fill="none" opacity="0.5" stroke-linecap="round"/>
+  </g>
+</svg>

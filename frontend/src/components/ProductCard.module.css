@@ -1,0 +1,136 @@
+.card {
+  background: var(--color-surface);
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+}
+
+.imageWrap {
+  position: relative;
+  overflow: hidden;
+}
+
+.body {
+  padding: 20px 20px 24px;
+}
+
+.cardGrid .body {
+  padding: 18px 18px 22px;
+}
+
+.titleRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.cardGrid .titleRow {
+  margin-bottom: 4px;
+}
+
+.name {
+  font-size: 18px;
+  margin: 0;
+}
+
+.cardGrid .name {
+  font-size: 17px;
+}
+
+.price {
+  font-family: var(--font-heading);
+  font-size: 15px;
+  color: var(--color-accent-700);
+  white-space: nowrap;
+}
+
+.description {
+  font-size: 13.5px;
+  color: color-mix(in srgb, var(--color-text) 70%, transparent);
+  margin: 0 0 10px;
+  line-height: 1.5;
+}
+
+.cardGrid .description {
+  font-size: 13px;
+}
+
+.dietary {
+  display: inline-flex;
+  font-size: 11px;
+  padding: 3px 10px;
+  border-radius: 999px;
+  background: var(--color-accent-2-100);
+  color: var(--color-accent-2-800);
+}
+
+.metaRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+}
+
+.allergen {
+  font-size: 10.5px;
+  color: color-mix(in srgb, var(--color-text) 50%, transparent);
+}
+
+.badge {
+  position: absolute;
+  top: 12px;
+  font-size: 10.5px;
+  letter-spacing: 0.03em;
+  padding: 4px 11px;
+  border-radius: 999px;
+  font-weight: 600;
+  color: var(--color-bg);
+}
+
+.badgeBestSeller {
+  left: 12px;
+  background: var(--color-accent);
+}
+
+.badgeSeasonal {
+  right: 12px;
+  background: var(--color-accent-2-600);
+}
+
+/* plain variant (Home best sellers) */
+.plain {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.plainImageWrap {
+  overflow: hidden;
+  border-radius: 24px;
+}
+
+.plainTitleRow {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.plainName {
+  font-size: 19px;
+  margin: 0 0 6px;
+}
+
+.plainPrice {
+  font-family: var(--font-heading);
+  font-size: 16px;
+  color: var(--color-accent-700);
+}
+
+.plainDescription {
+  font-size: 14px;
+  line-height: 1.6;
+  color: color-mix(in srgb, var(--color-text) 70%, transparent);
+  margin: 0;
+}

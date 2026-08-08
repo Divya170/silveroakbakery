@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="100%" height="100%" fill="#FFF8F2"/>
+  <g transform="translate(120,80)" fill="#CDA08A">
+    <circle cx="200" cy="200" r="160"/>
+    <rect x="420" y="120" rx="12" ry="12" width="520" height="360" fill="#F6E6DC" stroke="#E3CFC1"/>
+  </g>
+  <text x="120" y="720" font-family="Inter, sans-serif" font-size="18" fill="#6B3E2A">Team / Baker portrait</text>
+</svg>

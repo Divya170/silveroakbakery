@@ -1,0 +1,78 @@
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  display: block;
+  font-size: 12.5px;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.control {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 14px;
+  border: 1.5px solid var(--color-divider);
+  background: var(--color-bg);
+  font: inherit;
+  font-size: 14.5px;
+}
+
+.controlError {
+  border-color: var(--color-error);
+}
+
+.errorText {
+  color: var(--color-error);
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.textarea {
+  resize: vertical;
+}
+
+.upload {
+  border: 1.5px dashed var(--color-divider);
+  border-radius: 14px;
+  padding: 22px;
+  text-align: center;
+  color: color-mix(in srgb, var(--color-text) 55%, transparent);
+  font-size: 13px;
+}
+
+.uploadIcon {
+  margin: 0 auto 8px;
+  display: block;
+}
+
+.successPanel {
+  text-align: center;
+}
+
+.successIcon {
+  margin: 0 auto 16px;
+  display: block;
+}
+
+.successTitle {
+  margin: 0 0 8px;
+}
+
+.successText {
+  color: color-mix(in srgb, var(--color-text) 70%, transparent);
+  margin: 0 0 22px;
+}
+
+.resetBtn {
+  font-family: var(--font-heading);
+  font-size: 14px;
+  border: 1.5px solid var(--color-text);
+  background: transparent;
+  color: var(--color-text);
+  padding: 11px 24px;
+  border-radius: 999px;
+  cursor: pointer;
+}
